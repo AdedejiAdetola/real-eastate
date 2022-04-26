@@ -57,7 +57,7 @@ body {
 
 .nav--right a:hover {
   color: white;
-  background-color: #920C0C;
+  background-color: #100E75;
 }
 
 hr {
@@ -67,10 +67,82 @@ hr {
 }
 
 .intro-image {
-  background-image: url("../../../images/house.jpg");
+  background-image: url("../images/house.jpg");
   height: 39.2rem;
   background-size: cover;
   background-position: center center;
   margin-top: 1.8rem;
+}
+
+.project {
+  padding: 6rem 5rem;
+}
+
+.project__head {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.project__type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project--img {
+  margin-top: 6.2rem;
+}
+
+.project--img img {
+  width: 43rem;
+  height: 36.5rem;
+  margin: 0 5rem;
+}
+
+.project--img p {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1.6rem;
+  line-height: 3.6rem;
+}
+
+.project--button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project--button button {
+  margin-top: 7.6rem;
+  background-color: #920C0C;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 1rem;
+  width: 18.5rem;
+  height: 3.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.project--button button:hover {
+  background-color: #100E75;
+}
+
+.project--button a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=styles.css.map */
