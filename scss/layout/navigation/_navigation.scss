@@ -1,0 +1,41 @@
+.nav{
+    &_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        height: 11.2rem auto;
+    }
+    &--left{
+        p {
+            font-size: 2rem;
+        }
+    }
+    &--right{
+        display: flex;
+        justify-content: center;
+
+        div {
+            margin: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 2rem;
+            line-height: 2.4rem;
+            color: $black;
+            padding: 1rem;
+            &:hover{
+                color:white;
+                background-color: $red;
+            }
+        }
+    }
+}
+
+hr {
+    height: 0.2rem;
+    color: $ash;
+    background-color: $ash;
+}
