@@ -58,9 +58,6 @@
         }
     }
     
-    hr {
-        color: $hrcolor;
-        margin: 3.6rem 6.3rem 0;
-        height: 0.1rem;
-    }
+    
+    @include hr;
 }

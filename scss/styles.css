@@ -150,6 +150,76 @@ hr {
 .project hr {
   color: #3F3D56;
   margin: 3.6rem 6.3rem 0;
-  height: 0.1rem;
+  padding: 0.1rem;
+}
+
+.about {
+  padding-top: 6.1rem;
+}
+
+.about__header {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.63rem;
+  text-align: center;
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6.1rem;
+}
+
+.about--image img {
+  width: 42.1rem;
+  height: 36.5rem;
+}
+
+.about--content {
+  width: 40%;
+  margin-left: 10rem;
+}
+
+.about--content--1 {
+  font-size: 3.5rem;
+  line-height: 4.2rem;
+  margin-bottom: 3rem;
+}
+
+.about--content--2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.about--content--3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+
+.about--content a {
+  text-decoration: none;
+  color: #100E75;
+}
+
+.about--content a:hover {
+  background-color: #100E75;
+  color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.about hr {
+  color: #3F3D56;
+  margin: 3.6rem 6.3rem 0;
+  padding: 0.1rem;
 }
 /*# sourceMappingURL=styles.css.map */
