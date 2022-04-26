@@ -65,4 +65,12 @@ hr {
   color: #C4C4C4;
   background-color: #C4C4C4;
 }
+
+.intro-image {
+  background-image: url("../../../images/house.jpg");
+  height: 39.2rem;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 1.8rem;
+}
 /*# sourceMappingURL=styles.css.map */
