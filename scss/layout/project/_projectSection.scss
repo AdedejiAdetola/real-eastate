@@ -1,11 +1,8 @@
 .project{
-    padding: 6rem 5rem;
+    padding: 6rem;
 
     &__head{
-        font-weight: 700;
-        font-size: 3rem;
-        line-height: 3.6rem;
-        text-align: center;
+        @include title;
     }
 
     &__type{
@@ -30,33 +27,7 @@
         }
     }
 
-    &--button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        button{
-            margin-top: 7.6rem;
-            background-color: $red;
-            color: $white;
-            border: none;
-            outline: none;
-            text-align: center;
-            padding: 1rem;
-            width: 18.5rem;
-            height: 3.6rem;
-            border-radius: 0.5rem;
-            cursor: pointer;
-            &:hover{
-                background-color: $blue;
-            }
-        }
-
-        a {
-            text-decoration: none;
-            color: $white;
-        }
-    }
+    @include button;
     
     
     @include hr;

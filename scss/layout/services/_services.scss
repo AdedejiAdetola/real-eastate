@@ -1,10 +1,11 @@
-.about{
+.services{
     padding-top: 6.1rem;
     &__header{
         @include title;
     }
-
     @include imgContent;
+
+    @include button;
 
     @include hr;
 }

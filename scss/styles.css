@@ -27,6 +27,7 @@ body {
           align-items: center;
   padding: 1rem 2rem;
   height: 11.2rem auto;
+  width: 100%;
 }
 
 .nav--left p {
@@ -73,16 +74,17 @@ hr {
   background-size: cover;
   background-position: center center;
   margin-top: 1.8rem;
+  width: 100%;
 }
 
 .project {
-  padding: 6rem 5rem;
+  padding: 6rem;
 }
 
 .project__head {
-  font-weight: 700;
   font-size: 3rem;
-  line-height: 3.6rem;
+  font-weight: 700;
+  line-height: 3.63rem;
   text-align: center;
 }
 
@@ -218,6 +220,111 @@ hr {
 }
 
 .about hr {
+  color: #3F3D56;
+  margin: 3.6rem 6.3rem 0;
+  padding: 0.1rem;
+}
+
+.services {
+  padding-top: 6.1rem;
+}
+
+.services__header {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.63rem;
+  text-align: center;
+}
+
+.services__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6.1rem;
+}
+
+.services--image img {
+  width: 42.1rem;
+  height: 36.5rem;
+}
+
+.services--content {
+  width: 40%;
+  margin-left: 10rem;
+}
+
+.services--content--1 {
+  font-size: 3.5rem;
+  line-height: 4.2rem;
+  margin-bottom: 3rem;
+}
+
+.services--content--2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.services--content--3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+
+.services--content a {
+  text-decoration: none;
+  color: #100E75;
+}
+
+.services--content a:hover {
+  background-color: #100E75;
+  color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.services--button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services--button button {
+  margin-top: 7.6rem;
+  background-color: #920C0C;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 1rem;
+  width: 18.5rem;
+  height: 3.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.services--button button:hover {
+  background-color: #100E75;
+}
+
+.services--button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.services hr {
   color: #3F3D56;
   margin: 3.6rem 6.3rem 0;
   padding: 0.1rem;
