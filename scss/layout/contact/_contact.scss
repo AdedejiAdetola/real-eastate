@@ -1,0 +1,37 @@
+.contact{
+    background-color: $red;
+    margin-top: 10rem;
+    color: $white;
+    padding: 3rem;
+    &__title{
+        display: flex;
+        justify-content: center;
+        //height: 10rem;
+        align-items: start;
+        text-align: center;
+        &1, &2 {
+            padding: 0 3rem;
+            width: 40%;
+            .head{
+                text-transform: uppercase;
+                letter-spacing: 0.2rem;
+                font-size: 4rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+
+            .special {
+                text-align: left;
+                line-height: 3rem;
+                letter-spacing: 0.2rem;
+            }
+        }
+
+        
+    }
+
+    i{
+        height: 3rem;
+        color: blue;
+    }
+}

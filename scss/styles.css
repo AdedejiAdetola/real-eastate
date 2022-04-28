@@ -329,4 +329,48 @@ hr {
   margin: 3.6rem 6.3rem 0;
   padding: 0.1rem;
 }
+
+.contact {
+  background-color: #920C0C;
+  margin-top: 10rem;
+  color: #FFFFFF;
+  padding: 3rem;
+}
+
+.contact__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  text-align: center;
+}
+
+.contact__title1, .contact__title2 {
+  padding: 0 3rem;
+  width: 40%;
+}
+
+.contact__title1 .head, .contact__title2 .head {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contact__title1 .special, .contact__title2 .special {
+  text-align: left;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+.contact i {
+  height: 3rem;
+  color: blue;
+}
 /*# sourceMappingURL=styles.css.map */
