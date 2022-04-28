@@ -3,15 +3,18 @@
     margin-top: 10rem;
     color: $white;
     padding: 3rem;
+
     &__title{
         display: flex;
         justify-content: center;
         //height: 10rem;
         align-items: start;
         text-align: center;
+
         &1, &2 {
             padding: 0 3rem;
             width: 40%;
+
             .head{
                 text-transform: uppercase;
                 letter-spacing: 0.2rem;
@@ -32,6 +35,88 @@
 
     i{
         height: 3rem;
-        color: blue;
+        font-size: 4rem;
+        padding-right: 3rem;
     }
+    
+
+    &__details{
+        margin-top: 3rem;
+        
+        &--item{
+            display: flex;
+            align-items: center;
+            text-align: left;
+            padding: 3rem 0;
+            line-height: 3rem;
+            p{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    &__subscribe{
+        margin-top: 3rem;
+        margin-top: 25rem;
+        input{
+            border: none;
+            width: 38rem;
+            height:7rem;
+            border-radius: 5rem;
+            text-align: center;
+            font-size: 2rem;
+            outline: none;
+        }
+    }
+
+    @include button;
+    &--button{
+        button{
+            margin-top: 4rem;
+            background-color: $blue;
+            font-size: 3rem;
+            height: 7rem;
+            border-radius: 3rem;
+            &:hover{
+                background-color: $white;
+                font-size: 3.5rem;
+            }
+            a:hover{
+                color: $red;
+            }
+        }
+    }
+
+    &__connect{
+        margin-top: 4rem;
+        margin-left: 17rem;     
+        p{
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            font-size: 3rem;
+            font-weight: 700;
+            
+        }
+        div{
+            display: flex;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color:$blue;
+            &:hover{
+                color:white;
+            }
+        }
+    }
+
+
+    @include hr;
+}
+
+.footnote{
+    word-spacing: 1rem;
+    letter-spacing: 0.2rem;
+    margin-top: 1rem;
+    text-align: center;
 }
