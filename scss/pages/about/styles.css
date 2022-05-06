@@ -80,4 +80,62 @@ hr {
 .img--p p {
   margin-left: 3rem;
 }
+
+.managers__header {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.managers__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #C4C4C4;
+  box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.62);
+  margin-bottom: 3rem;
+}
+
+.managers__flex div img {
+  width: 30rem;
+  padding: 2rem;
+}
+
+.managers__flex--details {
+  padding: 2rem;
+  width: 50rem;
+}
+
+.managers__flex--details i {
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: black;
+  border: 1px solid black;
+  padding: .5rem;
+}
+
+.managers--name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.managers--title {
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+.managers--content {
+  text-align: justify;
+}
 /*# sourceMappingURL=styles.css.map */
