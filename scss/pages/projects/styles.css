@@ -29,6 +29,7 @@
 .sect__flex--content {
   font-size: 2rem;
   line-height: 2.4rem;
+  text-align: justify;
 }
 
 .sect__flex--2 video {
