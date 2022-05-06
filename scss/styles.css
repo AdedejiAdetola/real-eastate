@@ -124,10 +124,10 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 7.6rem;
 }
 
-.project--button button {
-  margin-top: 7.6rem;
+.project--button .button {
   background-color: #920C0C;
   color: #FFFFFF;
   border: none;
@@ -140,7 +140,7 @@ hr {
   cursor: pointer;
 }
 
-.project--button button:hover {
+.project--button .button:hover {
   background-color: #100E75;
 }
 
@@ -299,10 +299,10 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 7.6rem;
 }
 
-.services--button button {
-  margin-top: 7.6rem;
+.services--button .button {
   background-color: #920C0C;
   color: #FFFFFF;
   border: none;
@@ -315,7 +315,7 @@ hr {
   cursor: pointer;
 }
 
-.services--button button:hover {
+.services--button .button:hover {
   background-color: #100E75;
 }
 
@@ -420,10 +420,10 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 7.6rem;
 }
 
-.contact--button button {
-  margin-top: 7.6rem;
+.contact--button .button {
   background-color: #920C0C;
   color: #FFFFFF;
   border: none;
@@ -436,7 +436,7 @@ hr {
   cursor: pointer;
 }
 
-.contact--button button:hover {
+.contact--button .button:hover {
   background-color: #100E75;
 }
 

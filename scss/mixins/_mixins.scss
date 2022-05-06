@@ -4,91 +4,91 @@
         margin: 3.6rem 6.3rem 0;
         padding: 0.1rem;
     }
-  }
+}
 
-  @mixin title{
+@mixin title{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.63rem;
+    text-align: center;
+}
+
+@mixin imgContent{
+&__container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.1rem;
+}
+
+&--image{
+    img{
+        width:42.1rem;
+        height:36.5rem;
+    }
+}
+
+&--content{
+    width: 40%;
+    margin-left: 10rem;
+    &--1{
+        font-size: 3.5rem;
+        line-height: 4.2rem;
+        margin-bottom: 3rem;
+    }
+    &--2{
+        font-size: 2rem;
+        line-height: 2.4rem;
+        margin-bottom: 3rem;
+    }
+
+    &--3{
         font-size: 3rem;
         font-weight: 700;
-        line-height: 3.63rem;
-        text-align: center;
-  }
-
-  @mixin imgContent{
-    &__container{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 6.1rem;
+        line-height: 3.6rem;
     }
 
-    &--image{
-        img{
-            width:42.1rem;
-            height:36.5rem;
-        }
-    }
-
-    &--content{
-        width: 40%;
-        margin-left: 10rem;
-        &--1{
-            font-size: 3.5rem;
-            line-height: 4.2rem;
-            margin-bottom: 3rem;
-        }
-        &--2{
-            font-size: 2rem;
-            line-height: 2.4rem;
-            margin-bottom: 3rem;
-        }
-
-        &--3{
-            font-size: 3rem;
-            font-weight: 700;
-            line-height: 3.6rem;
-        }
-
-        a{
-            text-decoration: none;
-            color: $blue;
-            &:hover{
-                background-color: $blue;
-                color: $white;
-                padding: 1rem;
-                border-radius: 1rem;
-            }
-        }
-
-    }
-  }
-
-
-  @mixin button{
-    &--button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        button{
-            margin-top: 7.6rem;
-            background-color: $red;
+    a{
+        text-decoration: none;
+        color: $blue;
+        &:hover{
+            background-color: $blue;
             color: $white;
-            border: none;
-            outline: none;
-            text-align: center;
             padding: 1rem;
-            width: 18.5rem;
-            height: 3.6rem;
-            border-radius: 0.5rem;
-            cursor: pointer;
-            &:hover{
-                background-color: $blue;
-            }
-        }
-
-        a {
-            text-decoration: none;
-            color: $white;
+            border-radius: 1rem;
         }
     }
-  }
+
+}
+}
+
+
+@mixin button{
+&--button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.6rem;
+
+    .button{
+        background-color: $red;
+        color: $white;
+        border: none;
+        outline: none;
+        text-align: center;
+        padding: 1rem ;
+        width: 18.5rem;
+        height: 3.6rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        &:hover{
+            background-color: $blue;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}
+}
